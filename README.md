@@ -7,6 +7,15 @@
 An Arduino-based device that automatically detects nearby tram stops anywhere in Germany (DE) using GPS coordinates and retrieves real-time arrival information through public transit APIs. Upcoming tram arrival times are displayed on an LCD display or a 5-inch color display
 
 ---
+### Mandatory Display Format
+
+```
+Linie     Ziel                     In
+M2        Alexanderplatz           3 min
+M2        S+U Bahnhof              11 min
+```
+
+---
 ## Features
 - Automatically detects nearest tram stations using GPS
 - Retrieves real-time arrival information via transit APIs
