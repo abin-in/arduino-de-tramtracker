@@ -1,0 +1,110 @@
+# ---------------------------------------------------------
+# Arduino/.gitignore
+# Created on: 14 Nov 2025
+# Created by: https://github.com/abin-in
+# Updated on: 14 Nov 2025
+# Updated by:
+# ---------------------------------------------------------
+
+# =========================================================
+# Arduino Core Build Output
+# =========================================================
+*.elf
+*.hex
+*.eep
+*.bin
+*.d
+*.o
+*.a
+
+# Build cache folders (Arduino IDE 2.x & CLI)
+.build/
+.cache/
+.arduino/
+.arduinoIDE/
+
+# =========================================================
+# Arduino Sketch backups / temp files
+# =========================================================
+*.ino~
+*.pde~
+*.bak
+*.tmp
+*.temp
+*.old
+*.orig
+*.backup
+
+# Arduino IDE 2.x autosave
+*.ino.backup
+
+# =========================================================
+# ESP32 / ESP8266 (when compiled through Arduino IDE)
+# =========================================================
+
+# ESP build artifacts
+*.map
+*.elf
+*.bin
+*.lst
+
+# ESP upload temporary data
+*.partitions.bin
+*.bootloader.bin
+
+# ESP32/ESP8266 framework cached folders
+# (These are generated under C:\Users\<user>\AppData\Local\Arduino15 or .arduino)
+# They should NOT be committed.
+arduino-sketch-*/               # temp compile folder
+sketch_jul??a/                  # random sketch temp names created on some IDE versions
+
+# =========================================================
+# VSCode (if editing Arduino project)
+# =========================================================
+.vscode/
+.vscode/arduino.json
+.vscode/c_cpp_properties.json
+
+# =========================================================
+# PlatformIO (only if Arduino is used through it)
+# =========================================================
+.pio/
+.pioenvs/
+.piolibdeps/
+
+# =========================================================
+# System Files (Windows / macOS)
+# =========================================================
+
+# Windows
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# Windows temp
+*.tmp
+*.temp
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+*.swp
+*.swo
+
+# =========================================================
+# Logs
+# =========================================================
+*.log
+
+# =========================================================
+# Archives (optional)
+# =========================================================
+*.zip
+*.rar
+*.7z
+*.tar
+*.gz
